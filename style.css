@@ -9,10 +9,33 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #ffffff;
-    background: linear-gradient(-45deg, #3a3a3a, #141010, #000000, #805353);
+    color: navy;
+    background: linear-gradient(-45deg, #EFEFBB, #D4D3DD);
     background-size: 400% 400%;
+    /* animation: gradient 15s ease infinite; */
+}
+
+
+  
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    color: navy;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #a4a4a4;
+    background: transparent;
+    background-size: 400% 400%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     animation: gradient 15s ease infinite;
+    
 }
 @keyframes gradient {
     0% {
@@ -24,28 +47,7 @@ body {
     100% {
         background-position: 0% 50%;
     }
-} */
-
-  
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
 }
-
-/* Header Styling */
-header {
-    background: transparent;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    
-}
-
 header h1 {
     margin: 0;
 }
@@ -60,7 +62,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: navy;
     text-decoration: none;
     
 }
@@ -76,11 +78,11 @@ section {
 
 section h2 {
     margin-bottom: 10px;
-    color: #ffffff;
+    color: navy;
 }
 section a {
-    padding-top: 10dp;
-    color: #fff;
+    padding-top: 10px;
+    color: navy;
     text-decoration: none;
     
 }
@@ -92,7 +94,7 @@ section a:hover {
     background: transparent;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #a4a4a4;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -102,7 +104,7 @@ section a:hover {
 form {
     background: transparent;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #a4a4a4;
     border-radius: 5px;
 }
 
@@ -116,7 +118,7 @@ form input, form textarea {
     padding: 10px;
 
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #a4a4a4;
     border-radius: 5px;
 }
 
