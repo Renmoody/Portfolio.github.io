@@ -10,12 +10,22 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: navy;
-    background: linear-gradient(-45deg, #EFEFBB, #D4D3DD);
+    background: linear-gradient(-45deg, #EFEFBB, #D4D3DD, #e3ebab);
     background-size: 400% 400%;
-    /* animation: gradient 15s ease infinite; */
+    animation: gradient 15s ease infinite;
 }
 
-
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
   
 .container {
     width: 80%;
@@ -37,17 +47,7 @@ header {
     animation: gradient 15s ease infinite;
     
 }
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+
 header h1 {
     margin: 0;
 }
@@ -130,7 +130,13 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.formButton{
+    color: #fff;
+    text-decoration: none;
+}
+.formButton:hover{
+    text-decoration: none;
+}
 form button:hover {
     background: #555;
 }
